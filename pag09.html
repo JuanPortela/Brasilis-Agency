@@ -30,11 +30,11 @@
           </div>
         </div>
       </div>
-      <div class="navbar navbar-light" style="background-color: #a5a5a4;">
+      <div class="navbar navbar-dark" style="background-color: #052174">
         <div class="container d-flex justify-content-between">
           <a href="#" class="navbar-brand d-flex align-items-center">
-            <img src="Imagens/IMG2.jpg" width="70" height="70" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle> 
-            <strong>Brasilis Agency</strong
+            <img src="Imagens/IMG3-removebg-preview.png" width="70" height="70" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle> 
+            <strong>Brasilis Agency</strong>
           </a>
       <a class="text-white active" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
       <a class= "text-white"  href="Norte.html">Norte</a>
@@ -42,8 +42,8 @@
       <a class="text-white"  href="CentroOeste.html">Centro-Oeste</a>
 	  <a class="text-white" href="Sudeste.html">Sudeste</a>
 	  <a class= "text-white" href="Sul.html" >Sul</a>
-    <a class="text-success nav-item nav-link" href="entrar1.html">Login</a>
-    <a class="text-white nav-item nav-link" href="sign.html">Cadastro</a>
+    <a class="text-warning nav-item nav-link" href="entrar1.html">Login</a>
+    <a class="text-warning nav-item nav-link" href="sign.html">Cadastro</a>
     
     </div>
   </div>
@@ -59,40 +59,22 @@
       <div class="row">
         <div class="col-md-4 order-md-2 mb-4">
           <h4 class="d-flex justify-content-between align-items-center mb-3">
-            <span class="text-muted">Seu carrinho</span>
-            <span class="badge badge-secondary badge-pill">3</span>
+            <span class="text-muted">Seu pedido</span>
+            
           </h4>
           <ul class="list-group mb-3">
             <li class="list-group-item d-flex justify-content-between lh-condensed">
               <div>
-                <h6 class="my-0">Product name</h6>
-                <small class="text-muted">Brief description</small>
+                <h6 class="my-0">Cristo Redentor</h6>
+                <small class="text-muted">Ícone do Rio de Janeiro, o Cristo é, sem dúvidas, um dos mais célebres pontos turísticos do Brasil.</small>
               </div>
-              <span class="text-muted">$12</span>
+              <span class="text-muted">R$1300,00</span>
             </li>
             <li class="list-group-item d-flex justify-content-between lh-condensed">
-              <div>
-                <h6 class="my-0">Second product</h6>
-                <small class="text-muted">Brief description</small>
-              </div>
-              <span class="text-muted">$8</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between lh-condensed">
-              <div>
-                <h6 class="my-0">Third item</h6>
-                <small class="text-muted">Brief description</small>
-              </div>
-              <span class="text-muted">$5</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between bg-light">
-              <div class="text-success">
-                
-              </div>
-              <span class="text-success">-$5</span>
-            </li>
+              
             <li class="list-group-item d-flex justify-content-between">
-              <span>Total (USD)</span>
-              <strong>$20</strong>
+              <span>Total (BRL)</span>
+              <strong>R$1300,00</strong>
             </li>
           </ul>
 
@@ -198,6 +180,7 @@ Selecione um país válido.
      <option value="SE">SE</option>
      <option value="TO">TO</option>
                 </select>
+                
                 <div class="invalid-feedback">
                   Forneça um estado válido.
                 </div>
@@ -227,7 +210,7 @@ Selecione um país válido.
               </div>
               <div class="custom-control custom-radio">
                 <input id="boleto" name="paymentMethod" type="radio" class="custom-control-input" required>
-                <label class="custom-control-label" for="boleto">Boleto</label>
+                <label class="custom-control-label" for="boleto">Boleto (Link sera recebido no email)</label>
               </div>
             </div>
             <div class="row">
@@ -264,7 +247,7 @@ Selecione um país válido.
               </div>
             </div>
             <hr class="mb-4">
-            <button onclick="window.location.href='PagFinalizado.html'">Continue para finalizar a compra</button>
+            <button href='PagFinalizado.html'">Continue para finalizar a compra</button>
           </form>
         </div>
       </div>

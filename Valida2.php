@@ -14,16 +14,16 @@ if((isset($_POST['email'])) && (isset($_POST['senha']))) {
 	
 if(empty($resultado)){
 	$_SESSION['loginErro'] ="Usuário ou senha Inválido";
-	header("Location: entrar1.html");
+	header("Location: LoginFunc.html");
 }elseif(isset($resultado)){
-	 header("Location: index.html");
+	 header("Location: AcessoFuncionario.php");
 }else{	
 	$_SESSION['loginErro'] ="Usuário ou senha Inválido";
-	header("Location: entrar1.html");
+	header("Location: LoginFunc.html");
 }
 }else{
 	$_SESSION['loginCerto'] ="Usuário ou senha Valido";
-	header("Location: entrar1.html");
+	header("Location: LoginFunc.html");
 }
 
 ?>
